@@ -1,0 +1,49 @@
+html {
+  background-color: rgb(246, 215, 176);
+  background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+  /* height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; */
+}
+
+p {
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+span {
+  padding-left: 0.75rem;
+}
+
+img {
+  padding-top: 1rem;
+  filter: brightness(0%);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+.section-header {
+  padding-top: 4rem;
+  font-family: "Cinzel", serif;
+  font-size: 1.6rem;
+}
+
+.title {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.blurb {
+  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
