@@ -7,18 +7,19 @@
   "dependencies": {
     "react": "17.0.0",
     "react-dom": "17.0.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "serve": "11.3.2"
   },
   "devDependencies": {
     "typescript": "3.8.3"
   },
   "scripts": {
-"dev": "react-scripts start",
-"start": "serve -s build",
-"build": "react-scripts build",
-"test": "react-scripts test --env=jsdom",
-"eject": "react-scripts eject",
-"heroku-postbuild": "npm run build"
-},
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
